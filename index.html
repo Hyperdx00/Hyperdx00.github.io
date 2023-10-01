@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyPortfolio_Kritthanu</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Bootstrap -->
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body data-aos-easing="ease" data-aos-duration="1500" data-aos-delay="0">
+  <!-- Start Header Area -->
+  <header class="site-header sticky-top">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light rounded">
+      <div class="container">
+        <a href="#home" class="navbar-brand"><img src="img/logo.png" alt="" width="30" height="24"
+            class="d-inline-block align-text-top"> My-Portfolio </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbar1" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#project" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- End Header Area -->
+
+  <!-- main -->
+  <div class="container col-xxl-8 px-4 text-light aos-init" data-aos="fadeIn" id="home">
+    <div class="row flex-lg-row-reverse align-items-center g-5 ">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="img/profile.png" class="d-block mx-lg-auto img-fluid rounded" alt="" width="400" height="500"
+          loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h3>Hi there,</h3>
+        <h1 class="display-5 fw-bold lh-1 mb-3">I'm Krittanu</h1>
+        <p class="lead">Frontend developer, Web designer</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container aos-init" data-aos="fadeIn">
+    <section id="about">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/working-code.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-header bg-transparent">
+              <h3 class="card-title">About me</h3>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Who am I?</h5>
+              <p class="card-text">I'm a Computer Science student graduated with a pentchant
+                for design and creating website. I'm passionate about learning new technology and knowledge.</p>
+              <p>
+                I'm currently on the journey to became Frontend developer.
+              </p>
+            </div>
+            <div class="card-footer border-dark">My skills</div>
+            <h4 class="px-5">
+              <span class="badge rounded-pill bubble" style="background-color: rgb(255, 94, 0)"><i
+                  class="fab fa-html5"></i></span>
+              <span class="badge rounded-pill bg-info bubble"><i class="fab fa-css3-alt"></i></span>
+              <span class="badge rounded-pill bg-warning bubble"><i class="fab fa-js-square"></i></span>
+              <span class="badge rounded-pill bubble" style="background-color: rgb(105, 31, 242)"><i
+                  class="fab fa-bootstrap"></i></span>
+              <span class="badge rounded-pill bubble" style="background-color: #21759b"><i
+                  class="fab fa-wordpress"></i></span>
+              <span class="badge rounded-pill bubble" style="background-color: rgb(255, 94, 0)"><i
+                  class="fab fa-git-alt"></i></span>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- start slider -->
+    <section id="project">
+      <div class="card mb-3 bg-light aos-init" data-aos="fadeIn">
+        <div class="row g-0">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="card-body">
+              <h2 class="card-title">Projects</h2>
+              <p class="card-text">
+                My Projects and Certificates
+              </p>
+
+
+              <!-- start slider -->
+              <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner rounded">
+                  <div class="carousel-item active" data-bs-interval="1000">
+                    <a href="https://coursera.org/account/accomplishments/verify/3Y3YMWSFVZC8"><img
+                        src="img/Coursera Certificate.png" class="d-block w-100" alt="..." /></a>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="text-dark">
+
+                      </h5>
+                      <p class="text-dark"></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item " data-bs-interval="2000">
+                    <a href="https://www.borntodev.com/certificate_online/54911ed4f80f7ab64ad2f68c08653dfa/"><img
+                        src="img/BorntoDev Online Certificate.png" class="d-block w-100" alt="..." /></a>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="text-dark">
+
+                      </h5>
+                      <p class="text-dark"></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <a href=""><img src="img/webhomepage.png" class="d-block w-100 " alt="..." /></a>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="text-dark">Robot arm Instruction Website by WordPress</h5>
+                      <p class="text-dark"></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item ">
+                    <a href=""><img src="img/ufpic2.png" class="d-block w-100" alt="..." /></a>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="text-dark">Development of Automatic Chatbot System U’s-friend (LINE chatbot)</h5>
+                      <p class="text-dark"></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item ">
+                    <a href="https://dewarlock.com"><img src="img/dewarlock.com_.png" class="d-block w-100" alt="..." /></a>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="text-dark">dewarlock.com</h5>
+                      <p class="text-dark"></p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <!-- end slider -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container text-center bg-transparent aos-init" data-aos="fadeIn">
+        <div class="row justify-content-center mt-5">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <h3 class="p-3">Contact</h3>
+            <form>
+              <!-- Name input -->
+              <div class="form-outline mb-4">
+                <input type="text" id="form4Example1" class="form-control" />
+                <label class="form-label" for="form4Example1">Name</label>
+              </div>
+
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="form4Example2" class="form-control" />
+                <label class="form-label" for="form4Example2">Email address</label>
+              </div>
+
+              <!-- Message input -->
+              <div class="form-outline mb-4">
+                <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                <label class="form-label" for="form4Example3">Message</label>
+              </div>
+
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Back to top button -->
+  <button type="button" class="btn btn-primary btn-floating btn-lg  btn-rounded" id="btn-back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Start Footer Area-->
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-light text-muted pt-1 mt-3">
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-file-alt me-1"></i>My-Portfolio
+            </h6>
+            <p>
+              My Projects and Cetificate
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Section: Social media -->
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">social networks</h6>
+
+            <!-- Facebook -->
+            <a class="btn text-white btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i
+                class="fab fa-facebook"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn text-white btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i
+                class="fab fa-twitter"></i></a>
+
+            <!-- Google -->
+            <a href="" class="btn text-white btn-floating m-1" style="background-color: #dd4b39" href="#!"
+              role="button"><i class="fab fa-google"></i></a>
+
+
+            <!-- Instagram -->
+            <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i
+                class="fab fa-instagram"></i></a>
+
+            <!-- Github -->
+            <a class="btn text-white btn-floating m-1" style="background-color: #333333"
+              href="https://github.com/Hyperdx00" role="button"><i class="fab fa-github"></i></a>
+          </div>
+          <!-- Grid column -->
+          <!-- Section: Social media -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p>
+              <i class="fas fa-home me-3"></i>Bangkok , Thailand
+            </p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              krittanu.tha@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +66988305748</p>
+            <p><i class="fas fa-print me-3"></i> ---</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">© 2023 Copyright:
+
+      <a class="text-reset fw-bold" href="https://my-portfolio-hyperdx00.web.app"><i
+          class="fas fa-file-alt me-1"></i>Hyperdx00</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <!-- End Footer Area-->
+
+  <!-- Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      useClassNames: true,
+      initClassName: false,
+      animatedClassName: 'animated',
+      duration: 1500,
+    })
+  </script>
+  <script src ="script.js"></script>
+  <!-- <script>
+    const d = new Date();
+    document.getElementById("copyRight").innerHTML = "©" + d.getFullYear() + "Copyright:" ;
+  </script> -->
+</body>
+
+</html>
